@@ -18,10 +18,10 @@ c.execute('SET CHARACTER SET utf8mb4;')
 c.execute('SET character_set_connection=utf8mb4;')
 
 
-ckey ="kXcUvaiGIos4q7F2c6RnBDZsy"
-csecret = "tMlaXBesvtZOyMAmiz9ZAPnM7yq771CJERsG8wy2NucPWCG5ni"
-atoken = "135456971-MUmWpofCJgMjhLa1lXcC3Kn5GPB1Ons9RAqUVozt"
-asecret ="BDzJl29MVuL8m7rVjcZFjTMHuVEFIxJaqR99M7gUjxh3X"
+ckey =""
+csecret = ""
+atoken = ""
+asecret =""
 
 auth = tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
